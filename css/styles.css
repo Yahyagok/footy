@@ -57,4 +57,31 @@
   .eachPlayer { transition: all .2s ease-in-out; }
   .eachPlayer:hover { transform: scale(1.1); }
 
+  #add-new-player{
+    position: absolute;
+    top: 8px;
+    left: 200px; 
+    
+  }
+
+  #matches {
+    position: absolute;
+    top: 155px;
+    left: 260px; 
+  }
+
+  #submit {
+    position: absolute;
+    top: 180px;
+    left: 9px; 
+  }
+
+  #clubs{
+    position: absolute;
+    top: 135px;
+    left: 260px; 
+  }
+
+
+
 
