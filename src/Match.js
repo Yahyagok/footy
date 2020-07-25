@@ -7,18 +7,14 @@ class Match {
         this.away_team_system = matchAttributes.away_team_system
         this.home_team_score = matchAttributes.home_team_score
         this.away_team_score = matchAttributes.away_team_score
-        this.home_team_name = matchAttributes.home_team_score
+        this.home_team_name = matchAttributes.home_team_name
         this.away_team_name = matchAttributes.away_team_name
         this.home_team_badge = matchAttributes.home_team_badge
         this.away_team_badge = matchAttributes.away_team_badge
         Match.all.push(this)
     }
     addMatch(){
-        const contentContainer = document.getElementById('content-container')
-        const select = document.createElement('select')
-        select.name  = 'matches'
-        select.id = 'matches'
-        contentContainer.append(select)
+        const select = document.getElementById('matches')
         const option = document.createElement('option')
         option.value = `${this.id}`  
         option.innerHTML =`${this.home_team_name} - Match Id: ${this.id}` 

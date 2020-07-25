@@ -6,11 +6,9 @@ class Club {
         Club.all.push(this)
     }
 
-    getClub(){
-        const contentContainer = document.getElementById('content-container')
-        const select1 = document.createElement('select')
-        select1.id = 'clubs'
-       contentContainer.append(select1)
+    getClub(){ 
+       const select1 = document.getElementById('clubs')
+       
        const option1 = document.createElement('option')
        option1.value = `${this.id}`  
        option1.innerHTML = `${this.name} - club Id: ${this.id}` 
