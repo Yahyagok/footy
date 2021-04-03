@@ -1,5 +1,5 @@
 # footy
-Javascript with rails backend project.Used postgresql and custom css. User can see a couple of pages and create a player add that player to data.
+JavaScript with rails backend project.Used postgresql and custom CSS. A user can see a couple of different pages about soccer matches and create a player, add that player to data.
 
 here is demo video; 
 
